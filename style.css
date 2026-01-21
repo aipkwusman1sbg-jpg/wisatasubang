@@ -284,3 +284,16 @@ a{ color:inherit; text-decoration:none; }
 @media (prefers-reduced-motion: reduce){
   * { transition: none !important; animation: none !important; }
 }
+
+.hero {
+    background-image: url("images/banner-sman1subang.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* tinggi layar penuh */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
